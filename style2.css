@@ -1,0 +1,159 @@
+.main {
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    height: 1200px;
+    width:1000px;
+    border: 1px solid whitesmoke;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left {
+    width:500px;
+    margin-left: 25px;
+
+}
+
+.infor_space {
+    padding: 50px 0px;
+}
+
+.infor_img {
+    border: 2px solid black;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+img {
+    
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.infor_name {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.infor_content {
+    word-spacing: 1px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.text-deco1 {
+    
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 21px;
+}
+
+.text-deco2 {
+    font-size: large;
+    font-weight: 700;
+}
+
+.text-deco3 {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.right {
+    width: 100%;
+    background: aliceblue;
+}
+
+.crossbar_icon {
+    background: cornflowerblue;
+    margin: 2px 9px;
+    border-radius: 15px;
+    padding: 3px 8px;
+    position: relative;
+    left: -203px;
+    top: 189px;
+    transform: rotate(90deg);
+    width: 400px;
+}
+
+.crossbar_info {
+    margin: 0px 70px;
+}
+
+span.material-symbols-outlined {
+    padding: 0px 16px;
+    transform: rotate(-90deg);
+}
+
+.birth {
+    margin: -28px 0px;
+
+}
+ div .text-deco2 {
+    margin: 10px 0px;
+ }
+
+ div p:nth-child(2){
+    margin: 0px;
+    padding: 0px;
+ }
+ .call {
+    /* margin: 0px 0px; */
+    padding: 30px 1px;
+}
+
+.email {
+    margin: -24px 0px;
+    padding: -91px 0px;
+}
+
+.website {
+    padding: 28px 0px;
+}
+
+.address {
+    margin: -22px 0px;
+}
+
+.gender {
+    padding: 20px 0px;
+}
+
+.education {
+    margin: 55px 70px;
+}
+
+.text_deco3 {
+    font-size: larger;
+    font-weight: 700;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+
+.school {
+    display: flex;
+}
+
+.univer {
+    font-weight: 550;
+    padding-right: 13px;
+    border-right: 1px solid;
+}
+
+.semester {
+    padding-left: 10px;
+}
+
+.skills {
+    margin: 55px 70px;
+}
+
+.Certificate {
+    margin: 55px 70px;
+}
