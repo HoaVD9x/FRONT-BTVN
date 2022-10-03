@@ -69,25 +69,35 @@ img {
     background: aliceblue;
 }
 
+.crossbar {
+    display: flex;
+    flex-direction: row;
+}
+
 .crossbar_icon {
+    display: flex;
+    flex-direction: column;
     background: cornflowerblue;
     margin: 2px 9px;
     border-radius: 15px;
     padding: 3px 8px;
-    position: relative;
-    left: -203px;
-    top: 189px;
-    transform: rotate(90deg);
-    width: 400px;
+   
+    
+}
+
+p.text-deco2 {
+    margin: 5px 0px;
 }
 
 .crossbar_info {
-    margin: 0px 70px;
+    padding: 0px 10px;
+    margin-top: 46px;
 }
 
 span.material-symbols-outlined {
     padding: 0px 16px;
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
+    padding: 20px 0px;
 }
 
 .birth {
@@ -104,24 +114,24 @@ span.material-symbols-outlined {
  }
  .call {
     /* margin: 0px 0px; */
-    padding: 30px 1px;
+    padding: 44px 0px;
 }
 
 .email {
-    margin: -24px 0px;
+    margin: -26px 0px;
     padding: -91px 0px;
 }
 
 .website {
-    padding: 28px 0px;
+    padding: 43px 0px;
 }
 
 .address {
-    margin: -22px 0px;
+    margin: -27px 0px;
 }
 
 .gender {
-    padding: 20px 0px;
+    padding: 39px 0px;
 }
 
 .education {
